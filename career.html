@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>document</title>
+    <!--Bootstrap + css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!--End bootstrap + css-->
+    <script src="https://kit.fontawesome.com/700179baf5.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-light">
+    <!--Nav bar start-->
+    <div class="container fluid">
+        <div class="row">
+            <nav class="navbar col-md-12 bg-body-tertiary fixed-top shadow-sm">
+                <div class="container-md">
+                    <a class="navbar-brand text-danger fw-bold fs-4" href="index.html">Mariana Jimenez</a>
+                </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary btn-danger px-3" type="button" 
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="index.html">Home</a></li>
+                            <li><a class="dropdown-item" href="career.html">Career</a></li>
+                            <li><a class="dropdown-item" href="hobbies.html">Hobbies</a></li>
+                            <li><a class="dropdown-item" href="university.html">University</a></li>
+                        </ul>
+                    </div>
+            </nav>
+        </div>
+    </div> 
+    <!--Nav bar end-->
+
+    <main class="home py-5" id="home">
+        <div class="container-md">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0 fox">
+                    <div class="home-text">
+                        <p class="text-muted mb-1">My</p>
+                        <h1 class="text-danger text-uppercase fs-1 fw-bold">Career</h1>
+                        <h2 class="fs-4">options</h2>
+                        <p class="mt-4 text-muted">My options for my future career are either to become a prosecutor or a forensic pathologist.</p>
+                    </div>
+                </div>
+
+                <!--Carosel start-->
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first bunny">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="media/law.jpg" class="d-block w-100" alt="Law">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 class="text-black">Career 1</h5>
+                              <p class="text-secondary">Prosecuting Attorney: makes 56k-100k per year</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="media/forensic-science.jpg" class="d-block w-100" alt="mortician">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Career 2</h5>
+                              <p>Forensic Pathologist: makes 95k-320k</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <!--Carosel end-->
+                <div class="row">
+                    <div class="col-md-12 dog">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 cat">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="container-md">
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <div class="service-item shadow-sm p-4 rounded bg-white">
+                    <br>
+                    <h3 class="fs-5 py-2 text-danger">Prosecutor</h3>
+                    <p class="text-muted">A prosecutor is responsible for preseting the legal case in a trial.
+                    I'm particulary interested in this profession because I wanted to get into law. In order to become a lawyer,
+                    I would need to graduate 4 years of college and then graduate law school.
+                    </p>
+                    <br>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="service-item shadow-sm p-4 rounded bg-white">
+                    <br>
+                    <h3 class="fs-5 py-2 text-danger">Forensic Pathologist</h3>
+                    <p class="text-muted">A forensic pathologist is a physician who examines the body of people who've
+                    died so suddenly. I'm interested in this career because there are several ways a person can die,
+                    it's just so interesting to be able to find out how. However, it takes nearly 13 years in order to become one, that's why its just my second option. 
+                    </p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-md">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="media/harvard.webp" class="d-block w-100" alt="Harvard">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>A University for Law</h5>
+                          <p>Harvard University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="media/university-of-washington.jpeg" class="d-block w-100" alt="University of Washington" height="320" width="350">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>A University for Forensic Pathology</h5>
+                          <p>University of Washington</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="container-md">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-12 col-lg-4">
+                <div class="service-item shadow-sm p-4 rounded bg-white">
+                    <br>
+                    <h3 class="fs-5 py-2 text-danger">More options</h3>
+                    <p class="text-muted">More on my universities</p>
+                    <a href="university.html">
+                        <button class="btn btn-danger px-3">
+                            College Page
+                        </button>
+                    </a>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <!--Footer start-->
+    <footer class="container-fluid bg-danger">
+        <div class="row">
+            <div class="col-md-6">
+                <h5 class="text-white px-3">Made on:</h5>
+                <p class="text-white px-5">12/18/2023</p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+                <p class="text-white">Mariana Jimenez</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 container-md">
+                <button class="btn btn-white px-3 mt-3">
+                    <i class="fa-brands fa-twitter"></i>
+                </button>
+                <button class="btn btn-white px-3 mt-3">
+                    <i class="fa-brands fa-instagram"></i>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button class="btn btn-white px-3 mt-3">
+                    <i class="fa-brands fa-facebook"></i>
+                </button>
+                <button class="btn btn-white px-3 mt-3">
+                    <i class="fa-solid fa-envelope"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+    <!--Footer end-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
